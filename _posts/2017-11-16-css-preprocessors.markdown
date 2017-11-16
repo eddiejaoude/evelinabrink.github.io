@@ -3,6 +3,7 @@ layout: post
 title:  "CSS Preprocessors"
 date:   2017-11-16 12:08:14 +0100
 categories: jekyll update
+permalink: "/css-preprocessors/"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In congue efficitur arcu ut porta. Pellentesque sit amet odio vel diam pharetra egestas. Mauris sit amet posuere tortor. Nam convallis luctus dui, sed posuere tellus dapibus pharetra. Aenean eu ante magna. Nullam sodales massa eu turpis vestibulum fringilla. Integer quis placerat turpis, ut porta nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
