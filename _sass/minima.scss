@@ -12,7 +12,8 @@ $title-font: "Trebuchet MS";
 $spacing-unit:     30px !default;
 
 $text-color:       #3D3B3B !default;
-$background-color: #fdfdfd !default;
+$other-grey-text:  #4e4e4e !default;
+$background-color:  #e5e5e5 !default;
 $brand-color:      #1abb9c !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -49,11 +50,11 @@ $on-laptop:        800px !default;
 ;
 
 body {
-  background-color: #e5e5e5;
+  background-color: $background-color;
 }
 
 header {
-  background-color: #e5e5e5;
+  background-color: $background-color;
   padding:20px 0;
 }
 
@@ -73,7 +74,7 @@ header .site-title:hover {
 }
 .site-nav a {
   text-decoration: none;
-  color: #4e4e4e;
+  color: $other-grey-text;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -95,7 +96,6 @@ header .site-title:hover {
   }
 
   #main-banner h1, h3 {
-  color: #999;
   text-transform: uppercase;
 }
 
@@ -131,8 +131,8 @@ header .site-title:hover {
   margin-top:0;
   width:60%;
   padding:30px 20%;
-  background-color: #e5e5e5;
-  color:#4e4e4e;
+  background-color: $background-color;
+  color: $other-grey-text;
   font-size:20px;
   line-height: 1.6em;
   text-align: center;
