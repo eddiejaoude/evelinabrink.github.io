@@ -5,7 +5,34 @@
       
         <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
         <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-      
+        <meta name="author" content="Evelina Brinkemo">
+
+        <meta property="og:title"
+        content="{% if page.title %}
+          {{ page.title | strip_html | strip_newlines | truncate: 160 }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}">
+    
+    <meta property="og:description"
+        content="{% if page.excerpt %}
+            {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+          {% else %}
+            {{ site.description }}
+          {% endif %}">
+    
+    
+    <meta property="og:url"
+        content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    
+        <meta property="og:site_name" content="{{ site.title }}" />
+        
+        <meta property="og:locale" content="en_US" />
+
+        <meta name="twitter:site" content="@evelinabmo" />
+        <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    
+
         <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
         <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
