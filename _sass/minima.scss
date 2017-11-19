@@ -7,7 +7,7 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
-$title-font: Trebuchet MS;
+$title-font: "Trebuchet MS";
 
 $spacing-unit:     30px !default;
 
@@ -142,6 +142,13 @@ header .site-title {
 
 .home {
   padding-bottom: 50px;
+}
+
+.post-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $title-font;
+  color: $brand-color;
 }
 
 footer {
