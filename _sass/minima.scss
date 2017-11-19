@@ -7,12 +7,13 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$title-font: Trebuchet MS;
 
 $spacing-unit:     30px !default;
 
 $text-color:       #3D3B3B !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #EC4326 !default;
+$brand-color:      #1abb9c !default;
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
@@ -47,17 +48,20 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
+body {
+  background-color: #e5e5e5;
+}
+
 header {
   background-color: #e5e5e5;
   padding:20px 0;
 }
 
 
-
-
 header .site-title {
   text-decoration: none;
   text-transform: uppercase;
+  font-family: $title-font;
 }
 
 .site-nav a {
@@ -95,26 +99,46 @@ header .site-title {
   width: 100%;
    font-size: 40px;
    color:#f2f2f2;
+   font-family: $title-font;
 }
 
 #main-banner h3 {
-   position: absolute;
-   font-size: 25px;
-   color: #1abb9c;
+  position: absolute;
+  font-size: 25px;
+  color: #1abb9c;
   top: 490px;
   left: 0px;
   width: 100%;
+  font-family: $title-font;
 }
 
 #main-banner span {
   font: bold 24px/45px;
   letter-spacing: -1px;
-  background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
   padding-left: 50px;
 }
 
+#about {
+  margin-top:0;
+  width:60%;
+  padding:30px 20%;
+  background-color: #e5e5e5;
+  color:#4e4e4e;
+  font-size:20px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+#about blockquote {
+  padding-top: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 50px;
+}
 
 .home {
   padding-bottom: 50px;
