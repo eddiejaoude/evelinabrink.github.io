@@ -5,9 +5,9 @@ date:   2017-11-16 12:08:14 +0100
 categories: jekyll update
 vertical: Code
 permalink: "/comments-and-sharing/"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam."
+excerpt: "In order to allow a comment system on my blog posts I used Disqus, a popular comment plug-in."
 ---
 
-In order to allow a comment system on my blog posts I used Disqus, a popular comment plug-in. Disqus was fairly straight-forward to set up, and only required some extra extra lines of javascript in the post.html section of my _layouts folder. All the code and information was provided by Disqus itself, so it was merely a matter of copy-paste. 
+In order to allow a user interaction on my blog posts I used Disqus, a popular comment plug-in. Disqus was fairly straight-forward to set up, and only required some extra extra lines of javascript in the post.html section of my _layouts folder. All the code and information was provided by Disqus itself, so it was merely a matter of copy-paste. 
 
-In order to implement sharing via social media I used Open Graph, which is protocol initiated by Facebook. 
+In order to implement sharing via social media I used Open Graph, which is protocol initiated by Facebook. I used mainly basic metadata such as url and name. I also added a an excerpt variable with a one-sentence description in the YAML part of every blog-post. 
