@@ -47,8 +47,24 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
-.header-img img {
-    margin: auto;
-    display: block;
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.header-img img{
+   display: block;
+   margin: auto;
+   width: 100%; 
+   padding-bottom: 50px;
+  }
+
+
+
+.home {
+  padding-bottom: 50px;
+}
+
+footer {
+  background-color: #3D3B3B;
+}
