@@ -68,6 +68,9 @@ header .site-title:hover {
   color: $brand-color;
 }
 
+.site-header {
+  border-top: 0;
+}
 .site-nav a {
   text-decoration: none;
   color: #4e4e4e;
