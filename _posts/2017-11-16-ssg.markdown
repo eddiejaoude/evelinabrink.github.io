@@ -7,14 +7,13 @@ vertical: Code
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam."
 ---
 
+Static site generators are sort of a compromise between static web pages and a CMS in the sense that the SSG takes source source files and transforms them into static HTML pages. It has become a bit of a _buzzword_ lately for several reasons: 
 
-## Static Site Generators
+**1. speed**
 
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.** In congue efficitur arcu ut porta. Pellentesque sit amet odio vel diam pharetra egestas. Mauris sit amet posuere tortor. Nam convallis luctus dui, sed posuere tellus dapibus pharetra. Aenean eu ante magna. Nullam sodales massa eu turpis vestibulum fringilla. Integer quis placerat turpis, ut porta nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+**2. security**
 
-### What is it?
-Curabitur interdum sem sed orci posuere, eu placerat est elementum. Aenean posuere sem vitae lacus pellentesque interdum. Cras non tincidunt erat. Phasellus vitae odio ex. Mauris semper ultrices pellentesque. Donec posuere nibh sed posuere condimentum. Donec at semper turpis, a finibus tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit velit eu enim gravida tristique.
+**3. version control**
 
-Cras viverra molestie mattis. Integer ultricies massa felis, sed tempus leo porta vitae. Vestibulum mattis erat leo, non feugiat dolor condimentum at. Proin ipsum justo, gravida quis magna at, ullamcorper aliquet nisl. Morbi lacus dolor, ultrices nec tellus eu, condimentum aliquam eros. Mauris facilisis a felis vel aliquam. Fusce a condimentum sem. Integer faucibus vestibulum nulla vel feugiat.
+For this website I used **Jekyll**. Having delved in Wordpress (a _CMS_) before, I was rather intrigued to try out Jekyll. While, all the above reasons make it sound like it is a walk in the park to set up a web page, I encountered a quite a few issues along the way. Most of the problems stemmed from the comparably little information on how to customise a theme. Once I figured out the folder structure and had found some helpful tutorials on YouTube (this in particular was incredibly useful) it was relatively easy to get a site up and running quicky, much thanks to Github pages. All in all, once I understood how to use Jekyll it was indeed an enjoyable experience. 
 
-Vivamus eu convallis mi, ut dapibus augue. Nunc quis aliquam odio, quis hendrerit enim. Praesent volutpat, elit non sagittis rutrum, erat orci imperdiet odio, at auctor ipsum lorem eget est. Ut sit amet hendrerit dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus nulla magna, varius sagittis felis ac, iaculis facilisis lacus. Phasellus bibendum risus vitae velit consequat, non pulvinar elit facilisis. Quisque sed enim sem. Proin sodales commodo mi. Morbi vel varius est, non mollis nisl. Nullam efficitur purus at rutrum dictum. Aliquam erat volutpat. Maecenas fringilla sagittis justo a aliquet. Nullam eu diam sed tortor pharetra tincidunt. Donec at massa sit amet tortor porta euismod et sed sapien. Nam at tincidunt ipsum.

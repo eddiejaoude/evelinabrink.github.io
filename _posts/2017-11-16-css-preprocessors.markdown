@@ -5,7 +5,7 @@ date:   2017-11-16 12:08:14 +0100
 categories: jekyll update
 permalink: "/css-preprocessors/"
 vertical: Code
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam."
+excerpt: "Preprocessed CSS is a way of using a scripting scripting language which is then compiled into CSS."
 ---
 
 Preprocessed CSS is a way of using a scripting scripting language which is then compiled into CSS. By using preprocessed CSS one can add extra features to the styling process. For this particular website I used **_SASS_**. SASS is an extension of CSS3, meaning that CSS syntax is valid in a SASS document. 
