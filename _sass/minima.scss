@@ -64,6 +64,10 @@ header .site-title {
   font-family: $title-font;
 }
 
+header .site-title:hover {
+  color: $brand-color;
+}
+
 .site-nav a {
   text-decoration: none;
   color: #4e4e4e;
@@ -72,7 +76,7 @@ header .site-title {
 }
 
 .site-nav a:hover {
-  background-color: #1abb9c;
+  background-color: $brand-color;
   padding: 35px 8px;
   color:white;
 }
@@ -105,7 +109,7 @@ header .site-title {
 #main-banner h3 {
   position: absolute;
   font-size: 25px;
-  color: #1abb9c;
+  color: $brand-color;
   top: 490px;
   left: 0px;
   width: 100%;
@@ -132,7 +136,7 @@ header .site-title {
 }
 
 #about blockquote {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 
 .img-circle {
