@@ -3,11 +3,12 @@ layout: post
 title:  "Static Site Generators"
 date:   2017-11-16 12:08:14 +0100
 categories: jekyll update
+permalink: "/Static-site-generators/"
 vertical: Code
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio purus, euismod porta enim ac, sagittis congue diam."
+excerpt: "Static site generators are sort of a compromise between static web pages and a CMS in the sense that the SSG takes source source files and transforms them into static HTML pages. "
 ---
 
-Static site generators are sort of a compromise between static web pages and a CMS in the sense that the SSG takes source source files and transforms them into static HTML pages. It has become a bit of a _buzzword_ lately for several reasons: 
+Static site generators are sort of a compromise between static web pages and a CMS in the sense that the SSG takes source source files and transforms them into static HTML pages. SGG's make out to be a perfect fit if you want to get a personal web page like a blog up and running quickly and has become a bit of a _buzzword_ lately for several reasons: 
 
 **1. speed**
 
