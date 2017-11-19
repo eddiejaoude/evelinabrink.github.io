@@ -48,17 +48,72 @@ $on-laptop:        800px !default;
 ;
 
 header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #e5e5e5;
+  padding:20px 0;
 }
 
-.header-img img{
-   display: block;
-   margin: auto;
-   width: 100%; 
-   padding-bottom: 50px;
+
+
+
+header .site-title {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #4e4e4e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  background-color: #1abb9c;
+  padding: 35px 8px;
+  color:white;
+}
+
+#main-banner{
+  padding-bottom: 100px;
+  overflow: hidden;
+  background: url('../assets/evelina4.jpg') no-repeat center;
+  background-size: auto 100%;
+  margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 300px;
   }
 
+  #main-banner h1, h3 {
+  color: #999;
+  text-transform: uppercase;
+}
+
+#main-banner h1 {
+   position: absolute;
+   top: 420px;
+  left: 0px;
+  width: 100%;
+   font-size: 40px;
+   color:#f2f2f2;
+}
+
+#main-banner h3 {
+   position: absolute;
+   font-size: 25px;
+   color: #1abb9c;
+  top: 490px;
+  left: 0px;
+  width: 100%;
+}
+
+#main-banner span {
+  font: bold 24px/45px;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  padding-left: 50px;
+}
 
 
 .home {
